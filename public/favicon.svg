@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
+    <rect x="24" y="20" width="80" height="36" rx="8" class="frame"/>
+    <rect x="24" y="72" width="80" height="36" rx="8" class="frame"/>
+    <circle cx="42" cy="38" r="6" fill="#3FB950"/>
+    <circle cx="42" cy="90" r="6" fill="#3FB950"/>
+    <rect x="62" y="34" width="30" height="8" rx="4" class="slot"/>
+    <rect x="62" y="86" width="30" height="8" rx="4" class="slot"/>
+    <style>
+        .frame { stroke: #000; stroke-width: 9; }
+        .slot { fill: #000; }
+        @media (prefers-color-scheme: dark) {
+            .frame { stroke: #FFF; }
+            .slot { fill: #FFF; }
+        }
+    </style>
+</svg>
