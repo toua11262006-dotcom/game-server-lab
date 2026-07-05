@@ -24,9 +24,9 @@ heroImage: '../../assets/eyecatch/minecraft-server-guide.png'
 
 <div class="affiliate-box">
 <span class="label">PR</span>
-<p>筆者のサーバーは <strong>ConoHa VPS</strong> で稼働しています。マイクラ用のテンプレートが用意されているので、この記事の手順の大半をスキップして数分でサーバーを起動することもできます。時間課金制なので「週末だけ建てて試す」使い方もOKです。</p>
-<p><a href="https://px.a8.net/svt/ejp?a8mat=4B7U0Y+3C9KZ6+50+4YX6PU" rel="nofollow">サービス開発やテスト環境に便利な【ConoHa】</a>
-<img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4B7U0Y+3C9KZ6+50+4YX6PU" alt=""></p>
+<p>筆者のサーバーは <strong>ConoHa</strong> で稼働しています。ゲーム特化版の <strong>ConoHa for GAME</strong> ならマイクラ用テンプレート付きで、この記事の手順の大半をスキップして数分でサーバーを起動できます。時間課金制なので「週末だけ建てて試す」使い方もOKです。</p>
+<p><a href="https://px.a8.net/svt/ejp?a8mat=4B7USU+6JSFM+50+79YXW2" rel="nofollow">【ConoHa for GAME】マルチプレイがかんたんにすぐ遊べるゲームサーバー</a>
+<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4B7USU+6JSFM+50+79YXW2" alt=""></p>
 </div>
 
 ## 手順1: VPSを契約する

@@ -27,8 +27,8 @@ Modサーバーはバニラよりメモリを食います。**最低4GB、Modを
 <div class="affiliate-box">
 <span class="label">PR</span>
 <p>筆者のModサーバーは <strong>ConoHa VPS</strong> のメモリ8GBプランで運用しています。プラン変更が管理画面から数分でできるので、「まず4GBで建てて、重くなったら8GBに上げる」運用ができるのが便利です。</p>
-<p><a href="https://px.a8.net/svt/ejp?a8mat=4B7U0Y+3C9KZ6+50+4YX6PU" rel="nofollow">サービス開発やテスト環境に便利な【ConoHa】</a>
-<img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4B7U0Y+3C9KZ6+50+4YX6PU" alt=""></p>
+<p><a href="https://px.a8.net/svt/ejp?a8mat=4B7USU+6JSFM+50+79YXW2" rel="nofollow">【ConoHa for GAME】マルチプレイがかんたんにすぐ遊べるゲームサーバー</a>
+<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4B7USU+6JSFM+50+79YXW2" alt=""></p>
 </div>
 
 ## 手順1: Fabricサーバーを設置する
