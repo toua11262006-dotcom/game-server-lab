@@ -126,4 +126,5 @@ whitelist add 友達のマイクラID
 
 - VPS + Ubuntu + Java 21 + systemd で、24時間動く自分専用サーバーが月1,000円前後で持てる
 - ポート開放不要・自宅IPの公開なしで安全
-- 次のステップ: [Mod入りサーバーの建て方](/blog/minecraft-mod-server/)、[VPS各社の比較](/blog/game-vps-comparison/)
+- 次のステップ: [Mod入りサーバーの建て方](/blog/minecraft-mod-server/)、[プラグインの導入](/blog/minecraft-plugin-guide/)、[VPS各社の比較](/blog/game-vps-comparison/)
+- 公開する前に[荒らし対策・セキュリティ設定](/blog/minecraft-server-security/)を一巡しておくと安心。スイッチ・スマホ勢と遊ぶなら[Java×統合版クロスプレイ](/blog/minecraft-geyser-crossplay/)もどうぞ

@@ -56,6 +56,15 @@ const icons = {
 		<polyline points="50,36 50,52 62,60" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 		<path d="M30 22 L20 30" stroke="${c}" stroke-width="6" stroke-linecap="round"/>
 		<path d="M70 22 L80 30" stroke="${c}" stroke-width="6" stroke-linecap="round"/>`,
+	lock: (c) => `
+		<rect x="28" y="44" width="44" height="36" rx="8" fill="none" stroke="${c}" stroke-width="6"/>
+		<path d="M36 44 v-8 a14 14 0 0 1 28 0 v8" fill="none" stroke="${c}" stroke-width="6"/>
+		<circle cx="50" cy="60" r="5" fill="${c}"/>
+		<line x1="50" y1="64" x2="50" y2="71" stroke="${c}" stroke-width="5" stroke-linecap="round"/>`,
+	link: (c) => `
+		<path d="M44 62 L58 40" stroke="${c}" stroke-width="6" stroke-linecap="round"/>
+		<path d="M40 40 h-6 a14 14 0 0 0 0 28 h12 a14 14 0 0 0 13 -18" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round"/>
+		<path d="M60 62 h6 a14 14 0 0 0 0 -28 h-12 a14 14 0 0 0 -13 18" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round"/>`,
 };
 
 const posts = [
@@ -69,6 +78,11 @@ const posts = [
 	{ slug: 'minecraft-bedrock-server', bg: '#042C53', mid: '#85B7EB', light: '#E6F1FB', chipB: '#185FA5', chipT: '#B5D4F4', cat: '統合版', icon: 'phone', title: '統合版鯖の立て方' },
 	{ slug: 'palworld-server-settings', bg: '#26215C', mid: '#AFA9EC', light: '#EEEDFE', chipB: '#534AB7', chipT: '#CECBF6', cat: '設定', icon: 'gear', title: 'Palworld設定全解説' },
 	{ slug: 'minecraft-server-backup', bg: '#173404', mid: '#97C459', light: '#EAF3DE', chipB: '#3B6D11', chipT: '#C0DD97', cat: '運用', icon: 'clock', title: '自動バックアップ' },
+	{ slug: 'valheim-server-guide', bg: '#04342C', mid: '#5DCAA5', light: '#E1F5EE', chipB: '#0F6E56', chipT: '#9FE1CB', cat: '構築', icon: 'gamepad', title: 'Valheim専用鯖' },
+	{ slug: 'ark-server-guide', bg: '#501313', mid: '#F09595', light: '#FCEBEB', chipB: '#A32D2D', chipT: '#F7C1C1', cat: '構築', icon: 'gamepad', title: 'ARK専用鯖' },
+	{ slug: 'minecraft-plugin-guide', bg: '#26215C', mid: '#AFA9EC', light: '#EEEDFE', chipB: '#534AB7', chipT: '#CECBF6', cat: 'プラグイン', icon: 'puzzle', title: 'プラグイン導入' },
+	{ slug: 'minecraft-server-security', bg: '#042C53', mid: '#85B7EB', light: '#E6F1FB', chipB: '#185FA5', chipT: '#B5D4F4', cat: '防衛', icon: 'lock', title: '荒らし対策' },
+	{ slug: 'minecraft-geyser-crossplay', bg: '#412402', mid: '#EF9F27', light: '#FAEEDA', chipB: '#854F0B', chipT: '#FAC775', cat: 'クロスプレイ', icon: 'link', title: 'Java×統合版' },
 ];
 
 function svgFor(p) {
