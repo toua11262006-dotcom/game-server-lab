@@ -33,6 +33,29 @@ const icons = {
 	shield: (c) => `
 		<path d="M50 18 L78 28 L78 50 C78 68 66 78 50 84 C34 78 22 68 22 50 L22 28 Z" fill="none" stroke="${c}" stroke-width="6" stroke-linejoin="round"/>
 		<polyline points="38,50 47,59 63,41" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>`,
+	star: (c) => `
+		<path d="M50 18 L59 39 L82 41 L65 56 L70 79 L50 67 L30 79 L35 56 L18 41 L41 39 Z" fill="none" stroke="${c}" stroke-width="6" stroke-linejoin="round"/>`,
+	bolt: (c) => `
+		<path d="M56 16 L28 56 L46 56 L42 84 L72 42 L53 42 Z" fill="none" stroke="${c}" stroke-width="6" stroke-linejoin="round"/>`,
+	phone: (c) => `
+		<rect x="20" y="32" width="60" height="38" rx="8" fill="none" stroke="${c}" stroke-width="6"/>
+		<line x1="34" y1="45" x2="34" y2="57" stroke="${c}" stroke-width="6" stroke-linecap="round"/>
+		<line x1="28" y1="51" x2="40" y2="51" stroke="${c}" stroke-width="6" stroke-linecap="round"/>
+		<circle cx="64" cy="46" r="3.5" fill="${c}"/>
+		<circle cx="72" cy="56" r="3.5" fill="${c}"/>`,
+	gear: (c) => `
+		<circle cx="50" cy="50" r="13" fill="none" stroke="${c}" stroke-width="6"/>
+		<g stroke="${c}" stroke-width="6" stroke-linecap="round">
+			<line x1="50" y1="22" x2="50" y2="30"/><line x1="50" y1="70" x2="50" y2="78"/>
+			<line x1="22" y1="50" x2="30" y2="50"/><line x1="70" y1="50" x2="78" y2="50"/>
+			<line x1="30" y1="30" x2="36" y2="36"/><line x1="64" y1="64" x2="70" y2="70"/>
+			<line x1="70" y1="30" x2="64" y2="36"/><line x1="36" y1="64" x2="30" y2="70"/>
+		</g>`,
+	clock: (c) => `
+		<circle cx="50" cy="52" r="28" fill="none" stroke="${c}" stroke-width="6"/>
+		<polyline points="50,36 50,52 62,60" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+		<path d="M30 22 L20 30" stroke="${c}" stroke-width="6" stroke-linecap="round"/>
+		<path d="M70 22 L80 30" stroke="${c}" stroke-width="6" stroke-linecap="round"/>`,
 };
 
 const posts = [
@@ -41,6 +64,11 @@ const posts = [
 	{ slug: 'minecraft-mod-server', bg: '#26215C', mid: '#AFA9EC', light: '#EEEDFE', chipB: '#534AB7', chipT: '#CECBF6', cat: 'Mod', icon: 'puzzle', title: 'Mod鯖をFabricで' },
 	{ slug: 'palworld-server-guide', bg: '#412402', mid: '#EF9F27', light: '#FAEEDA', chipB: '#854F0B', chipT: '#FAC775', cat: '構築', icon: 'gamepad', title: 'Palworld専用鯖' },
 	{ slug: 'multiplayer-without-port-forwarding', bg: '#501313', mid: '#F09595', light: '#FCEBEB', chipB: '#A32D2D', chipT: '#F7C1C1', cat: '安全', icon: 'shield', title: 'ポート開放不要マルチ' },
+	{ slug: 'conoha-for-game-review', bg: '#04342C', mid: '#5DCAA5', light: '#E1F5EE', chipB: '#0F6E56', chipT: '#9FE1CB', cat: 'レビュー', icon: 'star', title: 'ConoHa for GAME解説' },
+	{ slug: 'minecraft-server-lag-fix', bg: '#412402', mid: '#EF9F27', light: '#FAEEDA', chipB: '#854F0B', chipT: '#FAC775', cat: '高速化', icon: 'bolt', title: 'マイクラ鯖が重い時' },
+	{ slug: 'minecraft-bedrock-server', bg: '#042C53', mid: '#85B7EB', light: '#E6F1FB', chipB: '#185FA5', chipT: '#B5D4F4', cat: '統合版', icon: 'phone', title: '統合版鯖の立て方' },
+	{ slug: 'palworld-server-settings', bg: '#26215C', mid: '#AFA9EC', light: '#EEEDFE', chipB: '#534AB7', chipT: '#CECBF6', cat: '設定', icon: 'gear', title: 'Palworld設定全解説' },
+	{ slug: 'minecraft-server-backup', bg: '#173404', mid: '#97C459', light: '#EAF3DE', chipB: '#3B6D11', chipT: '#C0DD97', cat: '運用', icon: 'clock', title: '自動バックアップ' },
 ];
 
 function svgFor(p) {
