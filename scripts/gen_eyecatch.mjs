@@ -65,6 +65,9 @@ const icons = {
 		<path d="M44 62 L58 40" stroke="${c}" stroke-width="6" stroke-linecap="round"/>
 		<path d="M40 40 h-6 a14 14 0 0 0 0 28 h12 a14 14 0 0 0 13 -18" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round"/>
 		<path d="M60 62 h6 a14 14 0 0 0 0 -28 h-12 a14 14 0 0 0 -13 18" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round"/>`,
+	anvil: (c) => `
+		<path d="M22 40 h44 a0 0 0 0 1 0 0 c0 10 -10 14 -18 14 h-2 v8 h14 v8 h-38 v-8 h14 v-8 c-12 0 -18 -8 -18 -18 Z" fill="none" stroke="${c}" stroke-width="6" stroke-linejoin="round"/>
+		<line x1="66" y1="40" x2="78" y2="34" stroke="${c}" stroke-width="6" stroke-linecap="round"/>`,
 };
 
 const posts = [
@@ -83,6 +86,7 @@ const posts = [
 	{ slug: 'minecraft-plugin-guide', bg: '#26215C', mid: '#AFA9EC', light: '#EEEDFE', chipB: '#534AB7', chipT: '#CECBF6', cat: 'プラグイン', icon: 'puzzle', title: 'プラグイン導入' },
 	{ slug: 'minecraft-server-security', bg: '#042C53', mid: '#85B7EB', light: '#E6F1FB', chipB: '#185FA5', chipT: '#B5D4F4', cat: '防衛', icon: 'lock', title: '荒らし対策' },
 	{ slug: 'minecraft-geyser-crossplay', bg: '#412402', mid: '#EF9F27', light: '#FAEEDA', chipB: '#854F0B', chipT: '#FAC775', cat: 'クロスプレイ', icon: 'link', title: 'Java×統合版' },
+	{ slug: 'minecraft-forge-server', bg: '#4A1B0C', mid: '#F0997B', light: '#FAECE7', chipB: '#993C1D', chipT: '#F5C4B3', cat: 'Forge', icon: 'anvil', title: 'Forge鯖の立て方' },
 ];
 
 function svgFor(p) {
